@@ -30,7 +30,7 @@ for filename in os.listdir(image_dir):
 
     cv2.imshow("Image Sorter", img)
     print(f"Displaying: {filename}")
-    print("Press h = happy, s = sad, a = angry, r = relaxed, q = quit")
+    print("Press h = happy, u = unhappy, a = angry, r = relaxed, s = surprised, f = fear, q = quit")
     
     key = cv2.waitKey(0) & 0xFF
 
