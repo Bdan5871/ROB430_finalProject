@@ -8,9 +8,11 @@ output_dir = "data/CatIndividualImages/cat_individuals_dataset/sorted"
 
 key_to_folder = {
     "h": "happy",
-    "s": "sad",
+    "u": "unhappy",
     "a": "angry",
-    "r": "relaxed"
+    "r": "relaxed",
+    "s": "surprised",
+    "f": "fear"
 }
 
 for folder in key_to_folder.values():
