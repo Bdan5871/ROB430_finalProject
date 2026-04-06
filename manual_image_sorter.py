@@ -2,9 +2,9 @@ import cv2
 import os
 import shutil
 
-image_dir = "data/CatIndividualImages/cat_individuals_dataset/0002"
+image_dir = "data/CatIndividualImages/cat_individuals_dataset/0006"
 
-output_dir = "data/CatIndividualImages/cat_individuals_dataset/sorted"
+output_dir = "data/CatIndividualImages/cat_individuals_dataset/sorted_cat"
 
 key_to_folder = {
     "h": "happy",
@@ -12,7 +12,9 @@ key_to_folder = {
     "a": "angry",
     "r": "relaxed",
     "s": "surprised",
-    "f": "fear"
+    "f": "fear",
+    "c": "curious",
+    "n": "neutral"
 }
 
 for folder in key_to_folder.values():
